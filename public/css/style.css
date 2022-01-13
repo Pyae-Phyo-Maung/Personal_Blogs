@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    font-size: 17px;
+}
+/* HEADER SECTION */
+.header {
+    background-color: #333;
+    padding-top: 70px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+}
+h3:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #af5404;
+    margin-top: 20px;
+}
+#header-img {
+    width: 70%;
+    height: 80%;
+    border-radius: 50%;
+}
+/*NAVAR SECTION*/
+#navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+#navbar {
+    width: 100%;
+    padding: 15px 0;
+}
+#navbar a {
+    font-size: 14px;
+    float: left;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+#navbar a:link,
+#navbar a:visited {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+#navbar a:hover,
+#navbar a:active {
+    border-bottom: 2px solid #af5404;
+}
+.fixMe {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.aboutme {
+    padding: 10px;
+    text-align: justify;
+}
+.total-project,
+.total-student {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+.font-awesome {
+    font-size: 20px;
+}
+/*------MY PROJECTS------*/
+.my-project a {
+    color: #000;
+    text-decoration: none;
+}
+.single-project {
+    background-color: hsla(244, 87%, 49%, 0.329);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+.my-project a:link,
+.my-project a:visited {
+    color: #000;
+}
+.my-project a:hover,
+.my-project a:active {
+    color: #af5404;
+}
+/*-----LATEST POSTS-----*/
+.latest-post img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.latest-post p {
+    text-align: justify;
+}
+/*------FOOTER-----*/
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+.footer p {
+    text-align: justify;
+    font-size: 13px;
+}
+.footer i {
+    font-size: 20px;
+    color: #bdafafb0;
+}
+.footer i a {
+    text-decoration: none;
+}
+.footer i:hover {
+    font-size: 30px;
+    color: #fff;
+}
+/*------Blog-------*/
+.blog {
+    padding: 20px;
+    text-align: justify;
+}
+.blog img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #888888;
+}
+/*----Sidebar------*/
+.sidebar {
+    padding: 20px;
+}
+.sidebar input[type="text"] {
+    border-radius: 5px 0 0 5px;
+}
+.sidebar button {
+    border-radius: 0 5px 5px 0;
+}
+/*--------Post Detail----*/
+.post-detail {
+    padding: 5px;
+    text-align: justify;
+}
+.post-detail img {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #888888;
+    margin-bottom: 10px;
+}
+.like button,
+.dislike button {
+    text-decoration: none;
+}
+
+.like i {
+    font-size: 25px;
+    color: #0000ff;
+}
+.dislike i {
+    font-size: 25px;
+    color: #ff0000;
+}
+.comment i {
+    font-size: 25px;
+    color: #00ff00;
+}
+.like_dis_com span {
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.comment-section img {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+}
+.comment-section .message-box {
+    width: 200px;
+    border: 1px solid #d7dbdd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #d7dbdd;
+}
+.comment:hover,
+.like:hover,
+.dislike:hover {
+    cursor: pointer;
+}
+/*Post blade*/
+.icon-small {
+    color: #e67e22;
+    font-size: 90%;
+    line-height: 90%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 20px;
+}
+ul.category_ul {
+    list-style-type: none;
+}
+.category_a:link,
+.category_a:visited {
+    color: #e67e22;
+    text-decoration: none;
+
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    -o-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+.category_a:hover,
+.category_a:active {
+    color: #111111;
+    border-bottom: 1px solid #e67e22;
+}
